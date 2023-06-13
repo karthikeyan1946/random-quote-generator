@@ -1,0 +1,50 @@
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #4A2040;
+    padding: 2rem;
+}
+#quote{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 4rem 1.5rem;
+    width: 600px;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+#quote-tags{
+    font-weight: 700;
+    padding: 0.2rem 1rem;
+    color: #4A2040;
+    border-radius:5px ;
+    text-transform: capitalize;
+}
+#quote-text{
+    padding: 1.4rem 0;
+    font-weight: 300;
+}
+#quote-author{
+    display: block;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+#btn-quote-gen{
+    font-size: 1.1rem;
+    border: none;
+    background-color:#4A2040;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
